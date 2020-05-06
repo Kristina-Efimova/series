@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: skyblue;
+    height: 150px;
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    list-style: none;
+    padding: 0 0 0 8%;
+}
+
+.menu-li {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    float: left;
+    margin: 85px 2px 0 0;
+}
+
+.menu-a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 6px 35px 5px 18px;
+}
+
+/*ul.menu li.selected a {*/
+/*    color: #aeb002;*/
+/*}*/
+
+a:hover {
+    color: #e4ec04;
+}
+
+
+.content {
+    width: auto;
+    height: 1000px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    /*background-color: white;*/
+    background-color: azure;
+
+}
+
+.search-container {
+    float: right;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.search, .login {
+    background-color: #f9f9f9;
+    float: right;
+    width: 240px;
+    padding: 3%;
+    margin: 20px 10px 20px 10px;
+    border: solid 3px #f2f2f2;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+h3 {
+    font: normal 170% 'century gothic', arial;
+    color: black;
+}
+
+.btn {
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+input[type="password"], input[type="search"], input[type="text"] {
+    color: #5d5d5d;
+    width: 63%;
+    padding: 8px;
+}
+
+input, textarea {
+    outline: none;
+    border: solid 1px #f2f2f2;
+}
+
+.content-centre {
+    margin: 20px 10px 10px 200px;
+    padding: 10px 10px 10px 10px;
+    width: 800px;
+    height: 900px;
+    /*background-color: cadetblue;*/
+}
+
+.info_film {
+    width: 800px;
+    height: 180px;
+    background-color: gainsboro;
+    border-radius: 8px;
+}
+
+.picture {
+    float: left;
+    margin: 15px 5px 0 10px;
+    width: 100px;
+    height: 150px;
+    border: solid 3px #f2f2f2;
+    border-radius: 8px;
+}
+
+#description {
+    padding: 5px 10px 10px;
+    text-align: justify;
+    font: normal 80% 'century gothic', arial;
+    color: black;
+}
+
+td {
+    border: solid 1px black;
+}
+
+#one {
+    width: 500px;
+}
+
+#two {
+    width: 165px;
+    font: normal 80% 'century gothic', arial;
+}
+
+/*.info_film_information {*/
+/*    float: right;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: darkgreen;*/
+/*}*/
+
+.button {
+    margin: 10px 5px 0 5px;
+    float: right;
+    padding-right: 10px;
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.button a {
+    padding-left: 7px;
+    text-decoration: none;
+    color: black;
+    font: normal 100% 'century gothic', arial;
+}
+
+.button a:hover {
+    color: red;
+}
+
+
+.footer {
+    background-color: darkturquoise;
+    padding: 28px 0 5px 0;
+    text-align: center;
+
+}
+
+
+/*.top-bar-section {*/
+/*    !*height: 50%;*!*/
+/*    width: 100%;*/
+/*    background-color: cornflowerblue;*/
+/*}*/
+
+/*.center {*/
+/*    height: 700px;*/
+/*    background-color: aquamarine;*/
+/*}*/
+
+/*.footer {*/
+/*    background-color: darkblue;*/
+/*    height: 100px;*/
+/*}*/
+
+
+/*.vertical {*/
+/*    padding-right: 10px;*/
+/*    border-right: 1px grey solid;*/
+/*    height: 100%;*/
+/*}*/
+
+/*#one {*/
+/*    width: 100px;*/
+/*    height: 80px;*/
+/*    padding-left: 5px;*/
+/*    float: left;*/
+/*}*/
+/*.a {*/
+/*    background-color: white;*/
+/*    float: left;*/
+/*    height: 80px;*/
+/*}*/
+
+/*.b {*/
+/*    background-color: aquamarine;*/
+/*    padding-left: 10px;*/
+/*    text-align: center;*/
+/*    height: 40px;*/
+/*}*/
+
+/*.c {*/
+/*    background-color: cornflowerblue;*/
+/*    height: 40px;*/
+/*    !*width: auto;*!*/
+/*    !*padding-left: 80%;*!*/
+/*    !*float: left;*!*/
+/*}*/
+
+/*#one {*/
+/*    width: 100px;*/
+/*    height: 80px;*/
+/*    padding-left: 5px;*/
+/*    float: left;*/
+/*    !*padding-top: 5px;*!*/
+
+/*    !*    border-right: 10px grey solid;*!*/
+/*}*/
+
+/*.top-bar-section {*/
+/*    !*    background-color: linen;*!*/
+/*    float: left;*/
+/*    !*    border-right: 1px grey solid;*!*/
+/*}*/
+
+/*#top-text {*/
+/*    font-weight: bold;*/
+/*    font-size: 99%;*/
+/*    position: relative;*/
+/*    top: 7px;*/
+/*    text-align: center;*/
+/*    padding: 0% 0% 0% 12%;*/
+/*}*/
+
+
+.clear {
+    clear: both;
+}
+
