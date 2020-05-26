@@ -6,7 +6,7 @@
 
 .header {
     background-color: skyblue;
-    height: 150px;
+    height: 45px;
     text-align: center;
 }
 
@@ -14,12 +14,14 @@
     float: left;
     list-style: none;
     padding: 0 0 0 8%;
+
 }
 
 .menu-li {
     font: normal 100% 'trebuchet ms', sans-serif;
     float: left;
-    margin: 85px 2px 0 0;
+    margin: 7px 2px 0 0;
+
 }
 
 .menu-a {
@@ -97,6 +99,14 @@ input, textarea {
     border: solid 1px #f2f2f2;
 }
 
+span {
+    font: normal 70% 'century gothic', "Times New Roman";
+}
+
+span a {
+    color: red;
+}
+
 .content-centre {
     margin: 20px 10px 10px 200px;
     padding: 10px 10px 10px 10px;
@@ -106,10 +116,11 @@ input, textarea {
 }
 
 .info_film {
-    width: 800px;
-    height: 180px;
+    width: 810px;
+    height: auto;
     background-color: gainsboro;
     border-radius: 8px;
+    margin: 1px;
 }
 
 .picture {
@@ -121,7 +132,7 @@ input, textarea {
     border-radius: 8px;
 }
 
-#description {
+.description {
     padding: 5px 10px 10px;
     text-align: justify;
     font: normal 80% 'century gothic', arial;
@@ -130,23 +141,20 @@ input, textarea {
 
 td {
     border: solid 1px black;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-#one {
+.one {
     width: 500px;
 }
 
-#two {
+.two {
     width: 165px;
     font: normal 80% 'century gothic', arial;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
-
-/*.info_film_information {*/
-/*    float: right;*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    background-color: darkgreen;*/
-/*}*/
 
 .button {
     margin: 10px 5px 0 5px;
@@ -155,6 +163,7 @@ td {
     background-color: white;
     color: white;
     border-radius: 5px;
+    border: solid 1px black;
     font-size: 1.2em;
 }
 
@@ -178,80 +187,25 @@ td {
 }
 
 
-/*.top-bar-section {*/
-/*    !*height: 50%;*!*/
-/*    width: 100%;*/
-/*    background-color: cornflowerblue;*/
-/*}*/
-
-/*.center {*/
-/*    height: 700px;*/
-/*    background-color: aquamarine;*/
-/*}*/
-
-/*.footer {*/
-/*    background-color: darkblue;*/
-/*    height: 100px;*/
-/*}*/
 
 
-/*.vertical {*/
-/*    padding-right: 10px;*/
-/*    border-right: 1px grey solid;*/
-/*    height: 100%;*/
-/*}*/
 
-/*#one {*/
-/*    width: 100px;*/
-/*    height: 80px;*/
-/*    padding-left: 5px;*/
-/*    float: left;*/
-/*}*/
-/*.a {*/
-/*    background-color: white;*/
-/*    float: left;*/
-/*    height: 80px;*/
-/*}*/
 
-/*.b {*/
-/*    background-color: aquamarine;*/
-/*    padding-left: 10px;*/
-/*    text-align: center;*/
-/*    height: 40px;*/
-/*}*/
 
-/*.c {*/
-/*    background-color: cornflowerblue;*/
-/*    height: 40px;*/
-/*    !*width: auto;*!*/
-/*    !*padding-left: 80%;*!*/
-/*    !*float: left;*!*/
-/*}*/
 
-/*#one {*/
-/*    width: 100px;*/
-/*    height: 80px;*/
-/*    padding-left: 5px;*/
-/*    float: left;*/
-/*    !*padding-top: 5px;*!*/
 
-/*    !*    border-right: 10px grey solid;*!*/
-/*}*/
 
-/*.top-bar-section {*/
-/*    !*    background-color: linen;*!*/
-/*    float: left;*/
-/*    !*    border-right: 1px grey solid;*!*/
-/*}*/
 
-/*#top-text {*/
-/*    font-weight: bold;*/
-/*    font-size: 99%;*/
-/*    position: relative;*/
-/*    top: 7px;*/
-/*    text-align: center;*/
-/*    padding: 0% 0% 0% 12%;*/
-/*}*/
+
+
+
+
+
+
+
+
+
+
 
 
 .clear {

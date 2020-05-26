@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Детективные сериалы</title>
+    <link rel="stylesheet" href="../styles-index.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="header">
+
+        <ul class="menu">
+            <li class="menu-li"><a class="menu-a" href="../index.html"> ГЛАВНАЯ </a></li>
+            <li class="menu-li"><a class="menu-a" href=""> НОВОСТИ В МИРЕ СЕРИАЛОВ </a></li>
+            <li class="menu-li"><a class="menu-a" href="index.html"> МИНИ СЕРИАЛЫ </a></li>
+            <li class="menu-li"><a class="menu-a" href=""> ТОП 10 ЛУЧШИХ СЕРИАЛОВ </a></li>
+            <li class="menu-li"><a class="menu-a" href=""> ФИЛЬМЫ </a></li>
+            <li class="menu-li"><a class="menu-a" href=""> НОВЫЕ СЕРИИ </a></li>
+        </ul>
+
+    </div>
+
+
+    <!--    <div class="container">
+
+            <img class="mini" src="исповедь.jpg" alt="исповедь">
+            <img class="mini" src="венская%20кровь.jpg" alt="венская кровь">
+            <img class="mini" src="имя%20мне%20ночь.jpg" alt="имя мне ночь">
+            <img class="mini" src="острые%20предметы.jpg" alt="острые предметы">
+            <img class="mini" src="потеряная%20комната.jpg" alt="потеряная комната">
+            <img class="mini" src="ребенок%20размори.jpg" alt="ребенок Размори">
+            <img class="mini" src="секреты%20и%20ложь.jpg" alt="секреты и ложь">
+            <img class="mini" src="тот%20кто%20убивает.jpg" alt="тот кто убивает">
+            <img class="mini" src="убийство%20по%20алфавиту.jpg" alt="убийство по алфавиту">
+
+
+        </div>-->
+
+
+    <div class="container">
+
+
+        <div id="carousel">
+
+            <button id="left" class="arrow"><img class="power" src="left.png" alt=""></button>
+            <button id="right" class="arrow"><img class="power" src="right.png" alt=""></button>
+            <ul id="slides">
+                <li class="slide "><img class="series" src="исповедь.jpg" alt="исповедь"></li>
+                <li class="slide"><img class="series" src="венская%20кровь.jpg" alt="венская кровь"></li>
+                <li class="slide"><img class="series" src="имя%20мне%20ночь.jpg" alt="имя мне ночь"></li>
+                <li class="slide"><img class="series" src="острые%20предметы.jpg" alt="острые предметы"></li>
+                <li class="slide"><img class="series" src="потеряная%20комната.jpg" alt="потеряная комната"></li>
+                <li class="slide"><img class="series" src="ребенок%20размори.jpg" alt="ребенок Размори"></li>
+                <li class="slide"><img class="series" src="секреты%20и%20ложь.jpg" alt="секреты и ложь"></li>
+                <li class="slide"><img class="series" src="тот%20кто%20убивает.jpg" alt="тот кто убивает"></li>
+                <li class="slide"><img class="series" src="убийство%20по%20алфавиту.jpg" alt="убийство по алфавиту">
+                </li>
+            </ul>
+
+        </div>
+
+        <script id="carousel-js">
+
+
+            let slides = document.querySelectorAll('#slides .slide');
+
+
+            let currentSlide = 0;
+
+            //todo удалить коментарии после реализации карусели
+            // function nextSlide() {
+            //     goToSlide();
+            // }
+
+            function previousSlide() {
+                // goToSlide(currentSlide - 1);
+
+
+
+            }
+
+            function nextSlide() {
+                const SLIDES_TO_SEE = 3;
+                const FIRST_SLIDE_POSITION = 0;
+
+                for (let x = FIRST_SLIDE_POSITION; x < SLIDES_TO_SEE; x++) {
+                    slides[currentSlide].className = 'slide showing';
+                    if (currentSlide === (slides.length - SLIDES_TO_SEE)) {
+                        currentSlide = FIRST_SLIDE_POSITION;
+                        //todo удалить коментарии после реализации карусели
+                        // n = n + 2;
+                        // currentSlide = (n + slides.length) % slides.length;
+                        for (let y = FIRST_SLIDE_POSITION; y < slides.length; y++) {
+                            slides[currentSlide].className = 'slide';
+                            currentSlide++;
+                        }
+                        return currentSlide = FIRST_SLIDE_POSITION;
+
+                    }
+                    currentSlide++;
+                }
+
+            }
+
+            let right = document.getElementById('right');
+            let left = document.getElementById('left');
+
+            right.onclick = function () {
+                nextSlide();
+            };
+            left.onclick = function () {
+                previousSlide();
+            };
+
+        </script>
+
+
+    </div>
+
+
+    <div class="footer">
+        <p>дополнительная информация</p>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
