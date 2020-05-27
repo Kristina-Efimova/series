@@ -45,16 +45,12 @@
     border: 1px solid #CCC;
     border-radius: 15px;
     background: #eee;
-    /*display: flex;*/
-    /*overflow: hidden;*/
 }
 
 .series {
     width: 400px;
     height: 200px;
-    /*overflow: hidden;*/
     float: left;
-
 }
 
 
@@ -62,13 +58,6 @@
     position: absolute;
     top: 70px;
     padding: 0;
-    /*background: #ddd;*/
-    /*border-radius: 15px;*/
-    /*border: 1px solid gray;*/
-    /*font-size: 24px;*/
-    /*line-height: 24px;*/
-    /*color: #444;*/
-
 }
 
 .arrow:focus {
@@ -107,35 +96,15 @@
 
 
 .slide {
-    /*display: inline-block;*/
-    /**/
-
-    /*overflow: hidden;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*top: 0;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
     opacity: 1;
     z-index: 2;
-    /*opacity: 0;*/
-    /*z-index: 1;*/
-
-    /*-webkit-transition: opacity 1s;*/
-    /*-moz-transition: opacity 1s;*/
-    /*-o-transition: opacity 1s;*/
-    /*transition: opacity 1s;*/
-
 }
 
-.showing{
-    /*opacity: 1;*/
-    /*z-index: 2;*/
+.showing {
     opacity: 0;
     z-index: 1;
     width: 100%;
     height: 100%;
     position: absolute;
-
 }
 

@@ -64,60 +64,7 @@
 
         </div>
 
-        <script id="carousel-js">
-
-
-            let slides = document.querySelectorAll('#slides .slide');
-
-
-            let currentSlide = 0;
-
-            //todo удалить коментарии после реализации карусели
-            // function nextSlide() {
-            //     goToSlide();
-            // }
-
-            function previousSlide() {
-                // goToSlide(currentSlide - 1);
-
-
-
-            }
-
-            function nextSlide() {
-                const SLIDES_TO_SEE = 3;
-                const FIRST_SLIDE_POSITION = 0;
-
-                for (let x = FIRST_SLIDE_POSITION; x < SLIDES_TO_SEE; x++) {
-                    slides[currentSlide].className = 'slide showing';
-                    if (currentSlide === (slides.length - SLIDES_TO_SEE)) {
-                        currentSlide = FIRST_SLIDE_POSITION;
-                        //todo удалить коментарии после реализации карусели
-                        // n = n + 2;
-                        // currentSlide = (n + slides.length) % slides.length;
-                        for (let y = FIRST_SLIDE_POSITION; y < slides.length; y++) {
-                            slides[currentSlide].className = 'slide';
-                            currentSlide++;
-                        }
-                        return currentSlide = FIRST_SLIDE_POSITION;
-
-                    }
-                    currentSlide++;
-                }
-
-            }
-
-            let right = document.getElementById('right');
-            let left = document.getElementById('left');
-
-            right.onclick = function () {
-                nextSlide();
-            };
-            left.onclick = function () {
-                previousSlide();
-            };
-
-        </script>
+        <script src="carousel.js"></script>
 
 
     </div>
