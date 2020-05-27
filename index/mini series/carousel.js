@@ -14,6 +14,10 @@ function previousSlide() {
         currentSlide = slides.length - 1;
     }
 
+    if (currentSlide === slides.length - 3 || currentSlide === SLIDES_TO_SEE) {
+        currentSlide--;
+    }
+
     for (let y = FIRST_SLIDE_POSITION; y < SLIDES_TO_SEE; y++) {
         slides[currentSlide].className = 'slide';
         currentSlide--;
