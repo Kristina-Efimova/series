@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .header {
     background-color: skyblue;
@@ -36,17 +40,16 @@
 /*}*/
 
 a:hover {
-    color: #e4ec04;
+    color: darkmagenta;
 }
 
 
 .content {
-    width: auto;
-    height: 1000px;
-    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
     margin: 20px auto 0 auto;
     /*background-color: white;*/
-    background-color: azure;
+    /*background-color: azure;*/
 
 }
 
@@ -108,6 +111,7 @@ span a {
 }
 
 .content-centre {
+    max-width: 100%;
     margin: 20px 10px 10px 200px;
     padding: 10px 10px 10px 10px;
     width: 800px;
@@ -116,6 +120,7 @@ span a {
 }
 
 .info_film {
+    max-width: 100%;
     width: 810px;
     height: auto;
     background-color: gainsboro;
@@ -124,6 +129,8 @@ span a {
 }
 
 .picture {
+    max-width: 100%;
+    max-height: 100%;
     float: left;
     margin: 15px 5px 0 10px;
     width: 100px;
@@ -133,6 +140,7 @@ span a {
 }
 
 .description {
+    max-width: 100%;
     padding: 5px 10px 10px;
     text-align: justify;
     font: normal 80% 'century gothic', arial;
@@ -140,16 +148,21 @@ span a {
 }
 
 td {
+    max-width: 100%;
     border: solid 1px black;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
 .one {
+    max-width: 100%;
+
     width: 500px;
 }
 
 .two {
+    max-width: 100%;
+
     width: 165px;
     font: normal 80% 'century gothic', arial;
     padding-left: 10px;
@@ -186,29 +199,7 @@ td {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.clear {
-    clear: both;
-}
+/*.clear {*/
+/*    clear: both;*/
+/*}*/
 
