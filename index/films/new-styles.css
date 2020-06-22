@@ -1,3 +1,59 @@
  a:hover {
     background-color: #b3d7ff;
 }
+
+ .clear{
+     clear: both;
+     height: 63px;
+ }
+
+ .wrapper {
+     min-height: 100%;
+ }
+
+ html, body {
+     height: 100%;
+ }
+
+ footer {
+     color: white;
+     background-color: #212529;
+     padding: 18px 0 17px 0;
+     border-top: 1px solid #000000;
+ }
+
+ .search, .login {
+     background-color: #f9f9f9;
+     float: right;
+     width: 240px;
+     padding: 3%;
+     margin: 20px 10px 20px 10px;
+     border: solid 3px #f2f2f2;
+     border-radius: 5px;
+ }
+
+ .image-size {
+     height: 300px;
+     width: 250px;
+     /*float: right;*/
+     /*margin-bottom: 10px;*/
+     /*margin-top: 10px;*/
+     /*border: solid 3px #1c7430;*/
+     /*border-radius: 8px;*/
+
+ }
+
+ .content {
+     margin: 50px 10px 1px 1px;
+ }
+
+ .description {
+     /*padding-bottom: 10px;*/
+     max-width: 100%;
+     /*width: 70%;*/
+     padding: 30px 10px 10px;
+     text-align: justify;
+     font: normal 90% 'century gothic', arial;
+     color: black;
+    /*text-align: center;*/
+ }
